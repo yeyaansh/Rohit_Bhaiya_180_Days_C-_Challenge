@@ -1,30 +1,41 @@
-Today is Day 10 and today I learned about Pattern-Printing-3 Problems
+Today is Day 11 and today I learned about Pattern-Printing Problems -- Super Hard Mode
 Today's HW is:
 
 First Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
-1
-21
-321
-4321
-54321
+
+            *
+           *  *
+         *  *  *
+       *  *  *  *
+     *  *  *  *  *
 
 Second Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
-A
-BB
-CCC
-DDDD
-EEEEE
+
+              1
+          1 2 3
+       1 2 3 4 5
+    1 2 3 4 5 6 7
+
+1 2 3 4 5 6 7 8 9
 
 Third Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
-5
-54
-543
-5432
-54321
+
+              A
+          A B A
+       A B C B A
+    A B C D C B A
+
+A B C D E D C B A
 
 Fourth Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
-E
-ED
-EDC
-EDCB
-EDCBA
+
+            *
+           *  *
+         *  *  *
+       *  *  *  *
+     *  *  *  *  *
+     *  *  *  *  *
+      *  *  *  *
+        *  *  *
+          *  *
+           *
