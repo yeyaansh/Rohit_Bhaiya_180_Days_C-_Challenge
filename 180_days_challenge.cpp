@@ -1,331 +1,81 @@
-//     *
-//    ***
-//   *****
-//  *******
-// *********
+// <<<<<<<<<<<<<<<<<<<<<<<<<<HOMEWORK>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int row, col, num;
-//     cout << "Enter the number: ";
-//     cin >> num;
-//     for (row = 1; row <= num; row++)
+//     int temp;
+//     cout << "Enter the temperature of the pool: ";
+//     cin >> temp;
+//     if (temp > 70 && temp < 90)
+//         cout << "Yes";
+//     else
 //     {
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= 2 * row - 1; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
+//         cout << "No";
 //     }
 // }
 
-//     1
-//    121
-//   12321
-//  1234321
-// 123454321
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int row, col, num;
-//     cout << "Enter the number: ";
+//     int num;
+//     cout << "Enter the number to check it's positive as well as even: ";
 //     cin >> num;
-//     for (row = 1; row <= num; row++)
-//     {
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << col;
-//         }
-//         for (col = row - 1; col >= 1; col--)
-//         {
-//             cout << col;
-//         }
-//         cout << endl;
-//     }
+//     if (num >= 0 && num % 2 == 0)
+//         cout << "Yes";
+//     else
+//         cout << "No";
 // }
 
-// *********
-//  *******
-//   *****
-//    ***
-//     *
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int row, col, num;
-//     cout << "Enter the number: ";
-//     cin >> num;
-//     for (row = 1; row <= num; row++)
-//     {
-//         for (col = 1; col <= row - 1; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= (num * 2) - (2 * row - 1); col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
-// }
-// <<<<<<<<<<<<<<<<<<<<<<<ANOTHER METHOD>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col, num;
-//     cout << "Enter the number: ";
-//     cin >> num;
-//     for (row = num; row >= 1; row--)
-//     {
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row * 2 - 1; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
+//     int age;
+//     cout << "Enter the age to check Teenager or not: ";
+//     cin >> age;
+//     if (age >= 13 && age <= 19)
+//         cout << "Teenager";
+//     else
+//         cout << "Not";
 // }
 
-// ********
-// ***  ***
-// **    **
-// *      *
-// *      *
-// **    **
-// ***  ***
-// ********
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int row, col, num;
-//     cout << "Enter the number: ";
-//     cin >> num;
-//     for (row = num; row >= 1; row--)
-//     {
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         for (col = 1; col <= (num * 2) - (row * 2); col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
-
-//     for (row = 1; row <= num; row++)
-//     {
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         for (col = 1; col <= (num * 2) - (row * 2); col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
+//     int a, b, c;
+//     cout << "Enter 3 numbers to check a is greater or not\n";
+//     cout << "Enter number a: ";
+//     cin >> a;
+//     cout << "Enter number b: ";
+//     cin >> b;
+//     cout << "Enter number c: ";
+//     cin >> c;
+//     if (a > b && a > c)
+//         cout << "a is greater";
+//     else
+//         cout << "Not";
 // }
 
-// *      *
-// **    **
-// ***  ***
-// ********
-// ***  ***
-// **    **
-// *      *
+// What will be the result below according to the precedence table.
+
+//     2*3-48==5/4*6 = 0
+// 6<<2-4*8/2 = ?
+//     5>4<3/2-8%4+5 = 1?
+//     14-8+92>>2+70 = 0
+
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int row, col, num;
-//     cout << "Enter the number: ";
-//     cin >> num;
-//     for (row = 1; row <= num; row++)
-//     {
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         for (col = 1; col <= (num * 2) - (2 * row); col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
-//     for (row = num - 1; row >= 1; row--)
-//     {
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         for (col = 1; col <= (num * 2) - (row * 2); col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
-// }
-
-//    *
-//   * *
-//  * * *
-// * * * *
-// * * * *
-//  * * *
-//   * *
-//    *
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col, num;
-//     cout << "Enter the Number: ";
-//     cin >> num;
-//     for (row = 1; row <= num; row++)
-//     {
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "* ";
-//         }
-//         cout << endl;
-//     }
-//     for (row = num; row >= 1; row--)
-//     {
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "* ";
-//         }
-//         cout << endl;
-//     }
-// };
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<HOMEWORK>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-//      *
-//     * *
-//    * * *
-//   * * * *
-//  * * * * *
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col, num;
-//     cout << "Enter the Number: ";
-//     cin >> num;
-//     for (row = 1; row <= num; row++)
-//     {
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << "* ";
-//         }
-//         cout << endl;
-//     }
-// }
-
-//      1
-//     123
-//    12345
-//   1234567
-//  123456789
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col, num;
-//     cout << "Enter the number: ";
-//     cin >> num;
-//     for (row = 1; row <= num; row++)
-//     {
-//         int n = 1;
-
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= (2 * row) - 1; col++)
-//         {
-//             cout << n;
-//             n++;
-//         }
-//         cout << endl;
-//     }
-// }
-
-//     A
-//    ABA
-//   ABCBA
-//  ABCDCBA
-// ABCDEDCBA
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col, num;
-//     cout << "Enter the number: ";
-//     cin >> num;
-//     for (row = 1; row <= num; row++)
-//     {
-//         char ch = 'A';
-
-//         for (col = 1; col <= num - row; col++)
-//         {
-//             cout << " ";
-//         }
-//         for (col = 1; col <= row; col++)
-//         {
-//             cout << ch;
-//             ch++;
-//         }
-//         for (col = row - 1; col >= 1; col--)
-//         {
-//             ch = 'A' + col - 1;
-//             cout << ch;
-//         }
-//         cout << endl;
-//     }
+//     long long ans1, ans2, ans3, ans4;
+//     ans1 = 2 * 3 - 48 == 5 / 4 * 6;
+//     cout << ans1 << endl;
+//     ans2 = 6 << 2 - 4 * 8 / 2;
+//     cout << ans2 << endl;
+//     ans3 = 5 > 4 > 3 / 2 - 8 % 4 + 5;
+//     cout << ans3 << endl;
+//     ans4 = 14 - 8 + 92 >> 2 + 70;
+//     cout << ans4;
 // };

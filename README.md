@@ -1,41 +1,17 @@
-Today is Day 11 and today I learned about Pattern-Printing Problems -- Super Hard Mode
+Today is Day 12 and today I learned about Operators in C++
 Today's HW is:
 
-First Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
+1: Temperature Range: Write a program that checks if a given temperature is suitable for swimming. If the temperature is between 70 and 90 (Excluded) degrees Fahrenheit print yes, else NO.
 
-            *
-           *  *
-         *  *  *
-       *  *  *  *
-     *  *  *  *  *
+2: Even and Positive Number: Write a program that prints “YES” if a given number is both even and positive, otherwise it will print “NO”.
 
-Second Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
+3: Age Check: Implement a program that checks if a person is a teenager. A teenager is someone whose age is between 13 and 19 (inclusive).
 
-              1
-          1 2 3
-       1 2 3 4 5
-    1 2 3 4 5 6 7
+4: Take three numbers a,b,c from the user, print yes if a is either greater than b or c. Otherwise print NO.
 
-1 2 3 4 5 6 7 8 9
+5: What will be the result below according to the precedence table.
 
-Third Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
-
-              A
-          A B A
-       A B C B A
-    A B C D C B A
-
-A B C D E D C B A
-
-Fourth Pattern: Take an input n from the user, and create a pattern like below, for n=5, we have output like this.
-
-            *
-           *  *
-         *  *  *
-       *  *  *  *
-     *  *  *  *  *
-     *  *  *  *  *
-      *  *  *  *
-        *  *  *
-          *  *
-           *
+    2*3-48==5/4*6
+    6<<2-4*8/2
+    5>4<3/2-8%4+5
+    14-8+92>>2+70
