@@ -1,17 +1,13 @@
-Today is Day 12 and today I learned about Operators in C++
+Today is Day 15 and today I learned about while loop, do-while loop switch case and scope of a variable
 Today's HW is:
+1: Take a number n from the user and print all the even numbers between 1 and n(inclusive). Do this using while and do while loop separately.
 
-1: Temperature Range: Write a program that checks if a given temperature is suitable for swimming. If the temperature is between 70 and 90 (Excluded) degrees Fahrenheit print yes, else NO.
+2: Find the factorial of a number n using a while loop and do a while loop.
 
-2: Even and Positive Number: Write a program that prints “YES” if a given number is both even and positive, otherwise it will print “NO”.
+3: Given a number n, print all the numbers from 1 to n(inclusive) which are not divisible by 3 and 5. (use Continue here).
 
-3: Age Check: Implement a program that checks if a person is a teenager. A teenager is someone whose age is between 13 and 19 (inclusive).
+4: Given a number n, print the corresponding month of it. For n=1, print Jan, n=2, print Feb…, if the user puts any invalid number, don’t do anything. (Use switch here)
 
-4: Take three numbers a,b,c from the user, print yes if a is either greater than b or c. Otherwise print NO.
+5: Print all the Capital and small letters using a while loop. It means A-Z, then a-z.
 
-5: What will be the result below according to the precedence table.
-
-    2*3-48==5/4*6
-    6<<2-4*8/2
-    5>4<3/2-8%4+5
-    14-8+92>>2+70
+6: Give a number n, find if it is prime or not, use a while loop and break here to solve it.
