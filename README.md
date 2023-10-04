@@ -1,13 +1,13 @@
-Today is Day 15 and today I learned about while loop, do-while loop switch case and scope of a variable
+Today is Day 16 & Day 17 and today I learned about conversion of decimal to biary and vice-versa and solved questions on leetcode and on geeksforgeeks
 Today's HW is:
-1: Take a number n from the user and print all the even numbers between 1 and n(inclusive). Do this using while and do while loop separately.
 
-2: Find the factorial of a number n using a while loop and do a while loop.
+1. Write a program to convert binary numbers to decimal numbers using a for loop.
+2. Write a program to convert decimal numbers to binary numbers using a for loop.
+3. Write a program to convert decimal numbers to Octal numbers.
+4. Write a program to convert Octal numbers to decimal numbers.
+5. Write a program to convert binary to Octal numbers
+6. Write a program to convert Octal numbers to binary numbers
 
-3: Given a number n, print all the numbers from 1 to n(inclusive) which are not divisible by 3 and 5. (use Continue here).
-
-4: Given a number n, print the corresponding month of it. For n=1, print Jan, n=2, print Feb…, if the user puts any invalid number, don’t do anything. (Use switch here)
-
-5: Print all the Capital and small letters using a while loop. It means A-Z, then a-z.
-
-6: Give a number n, find if it is prime or not, use a while loop and break here to solve it.
+7. https://leetcode.com/problems/sqrtx/
+8. https://leetcode.com/problems/ugly-number/
+9. https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1?page=1&difficulty[]=-1&difficulty[]=0&category[]=Numbers&category[]=number-theory&sortBy=submissions
