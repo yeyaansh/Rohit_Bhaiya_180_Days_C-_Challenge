@@ -1,138 +1,111 @@
 // #include <iostream>
 // using namespace std;
-
-// int sum(int x, int y) // function declaration
+// char convert(char name)
 // {
-//     int ans = x + y; // function define
+//     char ans = name - 'a' + 'A';
 //     return ans;
-// }
-
-// int mul(int x, int y)
-// {
-//     int mul = 1;
-//     mul = x * y;
-//     return mul;
-// }
-
-// void fun()
-// {
-//     cout << "Hello Coder Army";
 // }
 // int main()
 // {
-//     int a, b;
-//     cout << "Enter the value of a and b to find it's sum and product using function: \n";
-//     cin >> a >> b;
-//     cout << "Sum of a and b using function is: " << sum(a, b) << endl;     // function call
-//     cout << "Product of a and b using function is: " << mul(a, b) << endl; // function call
-//     fun();
+//     char name;
+//     cout << "Enter the letter to convert it into capital letter: ";
+//     cin >> name;
+//     cout << convert(name);
+//     return 0;
 // }
 
 // #include <iostream>
+// #include <cmath>
 // using namespace std;
-// bool isPrime(int x)
+// int counter(int num)
 // {
-//     if (x < 2)
+//     int count = 0;
+//     while (num)
+//     {
+//         count++;
+//         num /= 10;
+//     }
+//     return count;
+// }
+// bool Armstrong(int num, int digit)
+// {
+//     int ans = 0, n = num, rem;
+//     while (num)
+//     {
+//         rem = num % 10;
+//         num /= 10;
+//         ans = ans + pow(rem, digit);
+//     }
+//     if (ans == n)
+//         return 1;
+//     else
 //         return 0;
-//     for (int i = 2; i < x; i++)
-//     {
-//         if (x % i == 0)
-//             return 0;
-//     }
+// }
+// int main()
+// {
+//     int num;
+//     cout << "Enter the number to check whether the number is Armstrong or not: ";
+//     cin >> num;
+//     int digit = counter(num);
+//     cout << Armstrong(num, digit);
+//     return 0;
+// }
+
+// 1. find trailing zero in a factorial
+//  https://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial5134/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+//  class Solution
+//  {
+//  public:
+//      int trailingZeroes(int N)
+//      {
+//          // Write Your Code here
+//          int count = 0;
+//          while(N>=5)
+//          {
+//              count+=N/5;
+//              N/=5;
+//          }
+//          return 0;
+//      }
+
+// 2. rectangle or not
+// https://www.interviewbit.com/problems/is-rectangle/
+// /**
+//  * @input A : Integer
+//  * @input B : Integer
+//  * @input C : Integer
+//  * @input D : Integer
+//  *
+//  * @Output Integer
+//  */
+// int solve(int A, int B, int C, int D) {
+//     if((A==B && C==D) || (A==C && B==D) || (A==D && B==C))
 //     return 1;
+//     else
+//     return 0;
 // }
-// int fact(int m)
-// {
-//     int fact = 1;
-//     for (int i = 2; i <= m; i++)
-//     {
-//         fact *= i;
+
+// 3. Bishop
+// https://www.interviewbit.com/problems/total-moves-for-bishop/
+// int Solution::solve(int A, int B) {
+
+//     int count = 0;
+//     count+= min(8-A, 8-B);
+//     count+= min(A-1, 8-B);
+//     count+= min(A-1, B-1);
+//     count+= min(8-A, B-1);
+//     return count;
+// }
+
+// 4. Nim Game
+// https://leetcode.com/problems/nim-game/
+// class Solution {
+// public:
+//     bool canWinNim(int n) {
+//         if(n%4==0)
+//         return 0;
+//         else
+//         return 1;
+
 //     }
-//     return fact;
-// }
-// int sum(int x = 3, int y = 2) // function declaration
-// {
-//     int ans = x + y; // function define
-//     return ans;
-// }
-// void isPrimeNo(int x)
-// {
-//     if (x < 2)
-//     {
-//         cout << 0 << endl;
-//         return;
-//     }
-//     for (int i = 2; i < x; i++)
-//     {
-//         if (x % i == 0)
-//             cout << 0 << endl;
-//         return;
-//     }
-//     cout << 1 << endl;
-//     return;
-// }
-// int main()
-// {
-//     int a, b;
-//     cout << "Enter the value of a: " << endl;
-//     cin >> a;
-//     cout << "Enter the value of b: " << endl;
-//     cin >> b;
-//     cout << a << " is " << isPrime(a) << endl;
-//     cout << b << " factorial is: " << fact(a);
-//     cout << "Default parameter is: " << sum() << endl;
-//     isPrimeNo(a);
-// }
-
-// call by value or pass by value
-// #include <iostream>
-// using namespace std;
-
-// void swapit(int a, int b)
-// {
-//     int temp = a;
-//     a = b;
-//     b = temp;
-// }
-// int main()
-// {
-//     int a, b;
-//     cout << "Enter the value of a & b to swap: ";
-//     cin >> a >> b;
-//     swapit(a, b);
-//     cout << "a is now " << a << " ans b is now " << b;
-// }
-
-// call by reference or pass by reference
-// #include <iostream>
-// using namespace std;
-
-// void swapit(int &a, int &b)
-// {
-//     int temp = a;
-//     a = b;
-//     b = temp;
-// }
-// int main()
-// {
-//     int a, b;
-//     cout << "Enter the value of a & b to swap: ";
-//     cin >> a >> b;
-//     swapit(a, b);
-//     cout << "a is now " << a << " ans b is now " << b;
-// }
-
-// swap is an in-built function...
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int a, b;
-//     cout << "Enter the value of a & b to swap: ";
-//     cin >> a >> b;
-//     swap(a, b);
-//     cout << "a is now " << a << " ans b is now " << b << endl;
-//     float f1 = 23.43, f2 = 234.53;
-//     swap(f1, f2);
-//     cout << f1 << " " << f2;
 // };

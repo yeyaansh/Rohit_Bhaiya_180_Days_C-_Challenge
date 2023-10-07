@@ -1,15 +1,14 @@
-Today is Day 18 and today I learned about functions and pass by value and pass by reference..
+Today is Day 19 and today I learned about solving more question on online platform..
 Today's HW is:
 
-1: Find the cube of a number using Function.
+1. Distribute in a circle // https://www.interviewbit.com/problems/distribute-in-circle/
 
-2: Reverse a number n using Function, Constraints: -5000<=n<=5000
+2. Number of 1 bits // https://practice.geeksforgeeks.org/problems/set-bits0143/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-3: There are three numbers a,b,c. Put the value of a into b, put value of b into c and put value of c into a. Do it using Function.
+3. Count set bits // https://practice.geeksforgeeks.org/problems/set-bits0143/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-4: Swap 2 numbers a, b without using extra variables. Range of
--10000<=a,b<=100000.
+4. Bit Difference // https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-5: Print “Hello Coder Army” n times using Function.
+5. Find 5 inbuilt function in c++ like min or max etc and write a code around them.
 
-6: Given two numbers n, r. Find nCr (Combination). Use Function here.
+6. Learn C++ from here and revise it on weekend // https://www.w3schools.com/cpp/
