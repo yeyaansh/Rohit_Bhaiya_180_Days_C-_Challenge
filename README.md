@@ -1,14 +1,15 @@
-Today is Day 19 and today I learned about solving more question on online platform..
+Today is Day 22 and Today I learned about array..
 Today's HW is:
+1: Take 20 elements from user input and find its sum with the help of an array.
 
-1. Distribute in a circle // https://www.interviewbit.com/problems/distribute-in-circle/
+2: Calculate the average of elements in an array of size 18.
 
-2. Number of 1 bits // https://practice.geeksforgeeks.org/problems/set-bits0143/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+3: Find the index of a specific element in an array, if the element is nor present, print -1. Ask the size of the array from the user and then implement it.
 
-3. Count set bits // https://practice.geeksforgeeks.org/problems/set-bits0143/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+4: Create an array of char types and store ‘a’ to ‘z’ in it. Then print the element of the arrays.
 
-4. Bit Difference // https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+5: Find the second largest element in an array of unique elements of size n. Where n>3.
 
-5. Find 5 inbuilt function in c++ like min or max etc and write a code around them.
+6: Find the third smallest element in an array of unique elements size n. Where n>3.
 
-6. Learn C++ from here and revise it on weekend // https://www.w3schools.com/cpp/
+7: What is Byte addressable?
