@@ -1,15 +1,62 @@
-Today is Day 22 and Today I learned about array..
+Today is Day 23 & Day-24 and Today I learned about array..
 Today's HW is:
-1: Take 20 elements from user input and find its sum with the help of an array.
 
-2: Calculate the average of elements in an array of size 18.
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-23>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-3: Find the index of a specific element in an array, if the element is nor present, print -1. Ask the size of the array from the user and then implement it.
+1. Smallest Positive missing number
+   // https://practice.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-4: Create an array of char types and store ‘a’ to ‘z’ in it. Then print the element of the arrays.
+2. Move all negative elements to end
+   // https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-5: Find the second largest element in an array of unique elements of size n. Where n>3.
+3. Number of occurrence
+   // https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 
-6: Find the third smallest element in an array of unique elements size n. Where n>3.
+4. Count number of elements between two given elements in array
+   // https://practice.geeksforgeeks.org/problems/count-number-of-elements-between-two-given-elements-in-array4044/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-7: What is Byte addressable?
+5. First Repeating Element
+   // https://practice.geeksforgeeks.org/problems/first-repeating-element4018/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+
+6. Sum of Unique Elements
+   // https://leetcode.com/problems/sum-of-unique-elements/
+
+Hi Students, if you are a beginner, maybe you won’t be able to solve all the problems, so it's totally ok, I will cover some of the questions in the upcoming class. So till then keep going.
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-24>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Find the Time Complexity Big(O), Theta, Omega:
+
+for(int i=1;i<=n\*n;i++)
+cout<<"Coder Army";
+
+2: for(int i=1;i<=n\*n;i=i+2)
+cout<<"Coder Army";
+
+3: for(int i=1;i<=n;i++)
+for(int j=1;j<=n;j=j+5)
+cout<<"Coder Army";
+
+4: for(int i=1;i<=n;i++)
+for(int j=i;j<=n;j=j++)
+cout<<"Coder Army";
+
+5: for(int i=1;i<=n;i++)
+for(int j=1;j<=n;j=j\*4)
+cout<<"Coder Army";
+
+6: for(int i=1;i<=n;i=i\*2)
+for(int j=1;j<=i;j=j++)
+cout<<"Coder Army";
+
+7: for(int i=1;i<=n;i++)
+for(int j=1;j<=n;j=j++)
+for(int k=1;k<=n;k=k\*3)
+cout<<"Coder Army";
+
+8: for(int i=1;i<=n;i++)
+for(int j=1;j<=n;j=j++)
+for(int k=1;k<=n;k++)
+cout<<"Coder Army";
+
+Learn more about the Auxiliary Space Complexity and Total Space Complexity.
