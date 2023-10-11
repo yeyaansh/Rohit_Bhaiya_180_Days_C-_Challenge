@@ -1,4 +1,4 @@
-Today is Day 23 & Day-24 and Today I learned about array..
+Today is Day 23 & Day-24 and Today I learned about questions on array and time & space complexity..
 Today's HW is:
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-23>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
