@@ -1,10 +1,10 @@
-Today is Day 25 and Today I learned about Sorting (selection sorting)..
+Today is Day 25 and Today I learned about Sorting (bubble sorting)..
 Today's HW is:
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-25>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-26>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-1: Use a Selection Sort Algorithm to sort the array of integers in decreasing order.
+1: Use Bubble Sort Algorithm to sort the array of integers in decreasing order.
 
-2: Use a Selection Sort Algorithm to sort the array of integers in increasing order by taking the highest number to last place. Question was explained in the class.
+2: Bubble Sort Algorithm to sort the array of integers in increasing order by taking the smallest number to first place by starting from the last. Question was explained in the class.
 
-3: Use a Selection Sort Algorithm to sort the array of char in ascending order.
+3: Bubble Sort Algorithm to sort the array of char in ascending order.
