@@ -1,34 +1,10 @@
-Today is Day-30 & Day-31 and Today I learned about Questions on Binary Search..
+Today is Day-37 and Today I learned about STL (standard template library), and Vector and operations on them...
 Today's HW is:
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-30>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-37>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-1: An array is given in decreasing order with Key, Find the index of key, if key is not present, print -1;
-
-2: Search Insert Position
-https://leetcode.com/problems/search-insert-position/\
-
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-31>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-1: Find First and Last Position of Element in Sorted Array
-https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
-
-2: Search Insert Position
-https://leetcode.com/problems/search-insert-position/description/
-
-3: Sqrt(x)
-https://leetcode.com/problems/sqrtx/description/
-
-4: Kth Missing Positive Number
-https://leetcode.com/problems/kth-missing-positive-number/description/
-
-5: Count the Zeros
-https://practice.geeksforgeeks.org/problems/count-the-zeros2550/1?page=1&difficulty[]=0&category[]=Searching&sortBy=submissions
-
-6:Number of occurrence
-https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
-
-7: Cube root of a number
-https://practice.geeksforgeeks.org/problems/cube-root-of-a-number0915/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
-
-Learn About Lower bound and Upper bound in sorted arrays.
+1. Prove that the average time Complexity of Push_back operation in Vector is O(1) time.
+2. How to find the number of Occurance of an element in a vector. You need to use STL here.
+3. How to find maximum and minimum elements from the vector. USE STL here.
+4. Find Lower bound and Upper Bound of a given element in a sorted vector. USE STL here to find them.
+5. How to pass a vector to a function. Write a small code for it.
