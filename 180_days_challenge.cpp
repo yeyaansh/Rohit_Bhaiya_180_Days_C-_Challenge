@@ -1,80 +1,55 @@
-// 1. Segregate 0s and 1s
-// https://practice.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+// #include <iostream>
+// #include <algorithm>
+// #include <climits>
+// #include <vector>
+// using namespace std;
 
-// class Solution{
-// public:
-//     void segregate0and1(int arr[], int n) {
-//         // code here
-//         int start = 0, end = n-1;
-//         while(start<end)
-//         {
-//             if(arr[start] == 0)
-//             {
-//                 start++;
-//             }
-//             else
-//             {
-//                 if(arr[end]== 0)
-//                 {
-//                     swap(arr[start],arr[end]);
-//                     start++;end--;
-//                 }
-//                 else
-//                 end--;
-//             }
-//         }
-//     }
-// };
-
-// 2. Two Sum
-// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
-// class Solution
+// bool divide(vector<int> arr)
 // {
-// public:
-//     vector<int> twoSum(vector<int> &numbers, int target)
-//     {
+//     int max = INT_MIN, prefix = 0, total_sum = 0, n = arr.size();
+//     // total sum
+//     for (int i = 0; i < n; i++)
+//         total_sum += arr[i];
 
-//         vector<int> ans;
-//         int start = 0, end = numbers.size() - 1;
-//         while (start < end)
-//         {
-//             if ((numbers[start] + numbers[end]) > target)
-//             {
-//                 end--;
-//             }
-//             else if ((numbers[start] + numbers[end]) < target)
-//             {
-//                 start++;
-//             }
-//             else
-//             {
-//                 ans.push_back(start + 1), ans.push_back(end + 1);
-//                 break;
-//             }
-//         }
-//         return ans;
-//     }
-// };
-
-// 3. Pair With Given Difference
-// https://www.interviewbit.com/problems/pair-with-given-difference/
-// int Solution::solve(vector<int> &A, int B)
-// {
-//     sort(A.begin(), A.end());
-//     int start = 0, end = 1, n = A.size();
-//     if (B < 0)
-//         B = B * -1;
-//     while (end < n)
+//     for (int i = 0; i < n - 1; i++)
 //     {
-//         if ((A[end] - A[start]) == B)
+//         prefix += arr[i];
+//         int ans = total_sum - prefix;
+//         if (ans == prefix)
 //             return 1;
-//         else if ((A[end] - A[start]) > B)
-//             start++;
-//         else
-//             end++;
-
-//         if (start == end)
-//             end++;
 //     }
 //     return 0;
 // }
+
+// int main()
+// {
+//     int n;
+//     cout << "Enter the size of Array: ";
+//     cin >> n;
+//     vector<int> arr(n);
+//     cout << "Enter the elements: ";
+//     for (int i = 0; i < n; i++)
+//         cin >> arr[i];
+//     cout << divide(arr);
+// }
+
+// 1. Kadane's Algorithm
+// https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+// class Solution{
+//     public:
+//     // arr: input array
+//     // n: size of array
+//     //Function to find the sum of contiguous subarray with maximum sum.
+//     long long maxSubarraySum(int arr[], int n){
+//         // Your code here
+//         long long maxi = INT_MIN, prefix = 0;
+//         for(int i=0;i<n;i++)
+//         {
+//             prefix+=arr[i];
+//             maxi = max(maxi,prefix);
+//             if(prefix < 0)
+//             prefix = 0;
+//         }
+//         return maxi;
+//     }
+// };

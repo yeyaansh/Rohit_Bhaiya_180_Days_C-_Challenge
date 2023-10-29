@@ -1,19 +1,16 @@
-Today is Day-38 and Today I learned about Two Pointers...
+Today is Day-39 and Today I learned about Prefix and Suffix...
 Today's HW is:
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-38>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-39>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-1:Segregate 0s and 1s:
-// https://practice.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+1:Kadane's Algorithm
+//https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-2: Two Sum :
-// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+2: Maximum Difference between 2 element / (We only have article for 2nd problem, so solve it on your local compiler)
+//https://www.geeksforgeeks.org/maximum-difference-between-two-elements
 
-3:Pair With Given Difference:
-// https://www.interviewbit.com/problems/pair-with-given-difference/
+3:Maximum prefix sum for a given range:
+//https://practice.geeksforgeeks.org/problems/maximum-prefix-sum-for-a-given-range0227/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-4:Product Pair:
-// https://practice.geeksforgeeks.org/problems/equal-to-product3836/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
-
-5: Remove Duplicates from Sorted Array
-// https://www.interviewbit.com/problems/remove-duplicates-from-sorted-array/
+4:Equal Sums:
+//https://practice.geeksforgeeks.org/problems/equal-sums4801/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
