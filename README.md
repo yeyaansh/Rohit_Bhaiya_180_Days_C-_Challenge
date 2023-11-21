@@ -1,33 +1,45 @@
-Today is Day-40 & Day-43 and Today I learned about Trapping Rain Water || Triplet Sum in Array || Introduction to 2D Arrays...
+Today is Day-44 & Day-45 and Today I learned about Column Major Order, Vector in 2D, questions on 2D arrays and Rotating the array..
 Today's HW is:
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-40>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-44>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-1:Trapping Rain Water
-//https://leetcode.com/problems/trapping-rain-water/description/
-2:3 SUM
-//https://practice.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
-3:4 SUM
-//https://practice.geeksforgeeks.org/problems/four-elements2452/1
-4: Remove Element from Array
-//https://www.interviewbit.com/problems/remove-element-from-array/
-5:Array 3 Pointers
-//https://www.interviewbit.com/problems/array-3-pointers/
-6: Container With Most Water
-//https://www.interviewbit.com/problems/container-with-most-water/
+Day 44/180 2D arrays Interview Problems
 
+1:Transpose of Matrix: ( Use lower triangle for Transpose)
+https://practice.geeksforgeeks.org/problems/transpose-of-matrix-1587115621/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DAY-43>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2: Given a Matrix of size n\*m (n=rows and m= cols). Reverse each column of the matrix.
 
-1: Print sum of each column in 2D array.
-2: Given 2 matrices A and B, Print A-B.
-3: Given a matrix of size n*n, Print sum of diagonal element.
- Ex:   1 2 3
-       4 5 6
-       7 8 9
+Example:
+1 2 3 ||7 8 9
+4 5 6 ||→ 4 5 6
+7 8 9 ||1 2 3
 
-Its answer: 1+5+9 , 3+5+7, So the total sum will be 1+5+9+3+5+7 = 30. Here we can see that 5 is included 2 times, so we should include it only 1 time so the final answer will be, 30-5 = 25.  So the final answer will be 25.
+3: Spiral Matrix:
+https://leetcode.com/problems/spiral-matrix/
 
-4: What is the column major order? 
-5: Largest Element: Find and print the largest element in the 2D array.
-6: Smallest Element: Find and print the smallest element in the 2D arrays. 
+4: Spiral Matrix II:
+https://leetcode.com/problems/spiral-matrix-ii/
+
+5: Print Diagonally
+https://practice.geeksforgeeks.org/problems/print-diagonally4331/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+
+6: Print matrix in diagonal pattern (Hard level)
+https://practice.geeksforgeeks.org/problems/print-matrix-in-diagonal-pattern/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+
+7: Print Matrix in snake Patter
+https://practice.geeksforgeeks.org/problems/print-matrix-in-snake-pattern-1587115621/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+
+Day 45/180 Rotate Matrix in C++
+
+1: Rotate Image:
+https://leetcode.com/problems/rotate-image/
+
+2: Matrix Rotation by 180 degree:
+https://practice.geeksforgeeks.org/problems/c-matrix-rotation-by-180-degree0745/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+
+3: Rotate by 90 degree anticlockwise:
+https://practice.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+
+4:Left Rotate Matrix K times (This is different Problem which was taught in class)
+https://practice.geeksforgeeks.org/problems/left-rotate-matrix-k-times2351/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
