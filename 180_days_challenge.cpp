@@ -1,60 +1,123 @@
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   DAY-46    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   DAY-48    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-// // 1. Binary Search in 2D Array
-// // https://leetcode.com/problems/search-a-2d-matrix/
-// class Solution {
-// public:
-//     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-
-//         int m = matrix.size(), n = matrix[0].size();
-//         int start = 0, end = m*n-1;
-//         while(start <= end)
-//         {
-//             int mid = (start + end)/2;
-//           int  row = mid/n;
-//            int  col = mid%n;
-
-//             if(matrix[row][col] == target)
-//             return 1;
-
-//             else if(matrix[row][col] < target)
-//             start = mid + 1;
-            
-//             else
-//             end = mid -1;
-//         }
-
-//         return 0;
-        
-//     }
-// };
-
-
-// // 2. Search in a sorted row-col wise Matrix
-// // https://practice.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
-// // class Solution
+// #include<iostream>
+// using namespace std;
+// int main()
 // {
-//     public:
-//     //Function to search a given number in row-column sorted matrix.
-//     bool search(vector<vector<int> > matrix, int row, int col, int target) 
-//     {
-//         // code here
-//        int i = 0, j= col-1;
-//        while(i<row && j>=0)
-//        {
-//            if(matrix[i][j] == target)
-//            return 1;
-//            else if(matrix[i][j] > target)
-//            {
-//                // move left
-//                j = j-1;
-//            }
-//            else if(matrix[i][j] < target )
-//            {
-//                // move down
-//                i = i+1;
-//            }
-//        }
-//        return 0;
+//     char arr[] = {'a','p','p','l','e','\0'};
+//     cout << arr;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     char arr[] = {'a','p','p','l','e'};
+//     for(int i=0;i<5;i++)
+//     cout << arr[i];
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     cout << "Enter the character array: ";
+//     char arr[20];
+//     cin >> arr;
+//     cout << arr;
+// }
+
+
+// // Important lesson!
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string st = "My Name is Yeyaansh";
+//     cout << st;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string st;
+//     getline(cin, st);
+//     cout << st;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string st = "Rohit";
+//     cout << st.size();
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string s1 = "Rohit";
+//     string s2 = "Mohit";
+//     string s3 = s1 + s2;
+//     cout << s3;
 //     }
-// };
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string st = "Hello My Name is: \"Yeyaansh\"";
+//     cout << st;
+// }
+
+// // reverse a string
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string s = "Hello My Friend";
+//     int start = 0, end = s.size()-1;
+//     while(start<end)
+//     {
+//         swap(s[start],s[end]);
+//         start++;
+//         end--;
+//     }
+//     cout << s;
+// }
+
+// // calculate the length of the string without using .size() function
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string st = "Hello My Friend";
+//     int start = 0;
+//     while(st[start]!='\0')
+//     {
+//         start++;
+//     }
+//     cout << start;
+// }
+
+// // palindrome or not?
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     string s = "naman";
+//     int start = 0, end = s.size()-1;
+//     while(start<end)
+//     {
+//         if(s[start]!=s[end])
+//         {
+//             cout << "Not a Palindrome String";
+//             return 0;
+//         }
+//         start++ , end--;
+//     }
+
+//     cout << "It's a Palindrome String";
+// }
