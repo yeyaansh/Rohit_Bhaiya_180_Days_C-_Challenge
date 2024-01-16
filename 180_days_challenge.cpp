@@ -1,93 +1,104 @@
-// //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   DAY-64    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  DAY-65 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int arr[5] = {1,2,3,4,5};
-
-//     // Print the address of first element or 0th index element
-
-//     cout << arr << endl;
-//     cout << (arr+0) << endl;
-//     cout << &arr[0] << endl;
-//     int *ptr = &arr[0];
-//     cout << ptr << endl;
-
-//     // Print the address of second element or 1st index element
-
-//     cout << (arr+1) << endl;
-//     cout << &arr[1] << endl;
-//     cout << &*(arr+1) << endl;
-
-//     // Print the value of 0th index element
-
-//     cout << arr[0] << endl;
-//     cout << *(arr+0) << endl;
-    
-//     // Print all the addresses
-
-//     for(int i=0;i<5;i++)
-//     cout << arr+i << endl;
-
-//     // Print all the values
-
-//     for(int i=0;i<5;i++)
-//     cout << *(arr+i) << endl;
-
+//     char a = '9';
+//     cout << &a << endl; // prints the value till it get null character '\0'
+//     cout << (void*)a << endl; // prints the address
+//     cout << static_cast<void*>(a)<< endl; // prints the address
+//     char ar[] = "HelloJi";
+//     cout << ar << endl; // prints the value till it gets null character '\0'
+//     cout << (void *)ar << endl; // prints the address
+//     cout << static_cast<void*>(ar) << endl; // prints the address
 // }
 
 
+
+// // swapping by "Pass by Value(normal way)"
+// void swapping(int n1, int n2)
+// {
+//     int temp = n1;
+//     n1 = n2;
+//     n2 = temp;
+// }
+
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int arr[] = {1,2,33,4,99};
-//     int *ptr = arr;
-//     for (int i=0;i<5;i++)
-//     {
-//         // this should print the values of 1,2,33,4,99
-//         cout << ptr[i] << ", ";
-//     }
-//     cout << endl;
-//     for(int i=0;i<5;i++)
-//     {
-//         // this should print the values of 1,2,33,4,99
-//         cout << *(ptr+i) << ", ";
-//     }
-//     cout << endl;
-//     for (int i=0;i<5;i++)
-//     {
-//         // this should also print the values of 1,2,33,4,99
-//         cout << *ptr << ", ";
-//         ptr++;
-//     }
-//     cout << endl;
-//     // to print only their address
-//     for(int i=0;i<5;i++)
-//     {
-//         cout << (ptr+i) << ", ";
-//     }
-
-//        cout << endl;
-//     // to print only their addresses using arithmetic operator
-//     for(int i=0;i<5;i++)
-//     {
-//         cout << ptr << ", ";
-//         ptr++;
-//     }
+//     int first = 10, second = 30;
+//     swapping(first,second);
+//     cout << "First = " << first << " and Second = " << second;
 // }
 
 
-// THIS IS HOW I DID THE HOMEWORK QUESTION GIVEN IN VIDEO   
+
+// // swapping by "Pass by Pointer (Reference)"
+// void swapping(int *n1, int *n2)
+// {
+//     int temp = *n1;
+//     *n1 = *n2;
+//     *n2 = temp;
+// }
+
 // #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     char arr[5] = {"1234"};
-//     char *ptr = arr;
-//     cout << *ptr << " ";
-//     cout << endl;
-//     char ch = 'a';
-//     cout << *(&ch) << " ";
+//     int first = 10, second = 30;
+//     swapping(&first,&second);
+//     cout << "First = " << first << " and Second = " << second;
+// }
+
+
+// // Concept of Reference Variable
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int var = 12;
+//     //reference variable
+//     int &refVar = var;
+//     refVar = refVar + 45;
+//     cout << var;
+// }
+
+// // Swapping Function by the use of Reference variable
+// #include <iostream>
+// using namespace std;
+
+// void swapping (int &x, int &y)
+// {
+//     int temp = x;
+//     x = y;
+//     y = temp;
+// }
+
+// int main()
+// {
+//     int first = 12, second = 45;
+//     swapping(first, second);
+//     cout << "First = " << first << " " << "Second = " << second;
+// }
+
+
+// // Using it in Vector Array
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// void asVal(vector<int>&arr)
+// {
+//     for(int i=0; i<5;i++)
+//     arr[i] = 10;
+// }
+
+// int main()
+// {
+//     vector<int>arrP(5,0);
+//     asVal(arrP);
+//     for(int i=0;i<5;i++)
+//     cout << arrP[i] << " ";
 // }
